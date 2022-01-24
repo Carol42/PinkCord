@@ -4,6 +4,7 @@ import appConfig from "../config.json";
 function GlobalStyle() {
     return (
         <style global jsx>{`
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap'); 
         * {
           margin: 0;
           padding: 0;
@@ -11,7 +12,7 @@ function GlobalStyle() {
           list-style: none;
         }
         body {
-          font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto Slab';
         }
         /* App fit Height */ 
         html, body, #__next {
@@ -25,7 +26,7 @@ function GlobalStyle() {
         #__next > * {
           flex: 1;
         }
-        /* ./App fit Height */ 
+        /* ./App fit Height */
       `}</style>
     );
 }
@@ -37,8 +38,25 @@ function Title(props) {
             <Tag>{props.children}</Tag>
             <style jsx>{`
                 ${Tag} {
-                    color: ${appConfig.theme.colors.neutrals['900']};
+                    color: ${appConfig.theme.colors.primary['900']};
                     font-size: 24px;
+                    font-weight: 600;
+                }
+            `}
+            </style>
+        </>
+    )
+}
+
+function Subtitle(props) {
+    const Tag = props.tag || 'h1';
+    return (
+        <>
+            <Tag>{props.children}</Tag>
+            <style jsx>{`
+                ${Tag} {
+                    color: ${appConfig.theme.colors.primary['600']};
+                    font-size: 18px;
                     font-weight: 600;
                 }
             `}
@@ -58,7 +76,8 @@ export default function PaginaInicial() {
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary[500],
                     backgroundImage: 'url(https://github.com/Carol42/PinkCord/blob/main/assets/bg.png?raw=true)',
-                    backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
+                    backgroundRepeat: 'repeat-x', backgroundSize: 'contain', backgroundBlendMode: 'multiply',
+                    backgroundPosition: 'center',
                 }}
             >
                 <Box
@@ -84,7 +103,8 @@ export default function PaginaInicial() {
                             width: { xs: '100%', sm: '50%' }, textAlign: 'center', marginBottom: '32px',
                         }}
                     >
-                        <Title tag="h2">Hey you! Together we stand, divided we fall!</Title>
+                        <Title tag="h2">Hey you!</Title>
+                        <Subtitle tag="h3">Together we stand, divided we fall!</Subtitle>
                         <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
                             {appConfig.name}
                         </Text>
