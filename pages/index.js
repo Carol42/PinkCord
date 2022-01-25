@@ -1,6 +1,7 @@
 import { Box, Button, Text, TextField, Image } from '@skynexui/components';
 import appConfig from "../config.json";
 
+
 function GlobalStyle() {
     return (
         <style global jsx>{`
@@ -73,7 +74,7 @@ export default function PaginaInicial() {
             <GlobalStyle />
             <Box
                 styleSheet={{
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
                     backgroundColor: appConfig.theme.colors.primary[500],
                     backgroundImage: 'url(https://github.com/Carol42/PinkCord/blob/main/assets/bg.png?raw=true)',
                     backgroundRepeat: 'repeat-x', backgroundSize: 'contain', backgroundBlendMode: 'multiply',
@@ -92,7 +93,7 @@ export default function PaginaInicial() {
                         width: '100%', maxWidth: '700px',
                         borderRadius: '5px', padding: '32px', margin: '16px',
                         boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-                        backgroundColor: appConfig.theme.colors.neutrals[700],
+                        backgroundColor: appConfig.theme.colors.neutrals['999a'],
                     }}
                 >
                     {/* Formulário */}
@@ -116,7 +117,7 @@ export default function PaginaInicial() {
                                     textColor: appConfig.theme.colors.neutrals[200],
                                     mainColor: appConfig.theme.colors.neutrals[900],
                                     mainColorHighlight: appConfig.theme.colors.primary[500],
-                                    backgroundColor: appConfig.theme.colors.neutrals[800],
+                                    backgroundColor: appConfig.theme.colors.neutrals['700a'],
                                 },
                             }}
                         />
@@ -124,6 +125,7 @@ export default function PaginaInicial() {
                             type='submit'
                             label='Entrar'
                             fullWidth
+                            styleSheet={{ marginBottom: '32px'}}
                             buttonColors={{
                                 contrastColor: appConfig.theme.colors.neutrals["000"],
                                 mainColor: appConfig.theme.colors.primary[500],
@@ -131,6 +133,7 @@ export default function PaginaInicial() {
                                 mainColorStrong: appConfig.theme.colors.primary[600],
                             }}
                         />
+                        <iframe src="https://open.spotify.com/embed/track/05uGBKRCuePsf43Hfm0JwX?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </Box>
                     {/* Formulário */}
 
@@ -143,7 +146,7 @@ export default function PaginaInicial() {
                             alignItems: 'center',
                             maxWidth: '200px',
                             padding: '16px',
-                            backgroundColor: appConfig.theme.colors.neutrals[800],
+                            backgroundColor: appConfig.theme.colors.neutrals['700a'],
                             border: '1px solid',
                             borderColor: appConfig.theme.colors.neutrals[999],
                             borderRadius: '10px',
@@ -175,6 +178,7 @@ export default function PaginaInicial() {
             </Box>
         </>
     );
+
 }
 
 // React Component
