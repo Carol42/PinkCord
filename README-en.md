@@ -3,7 +3,7 @@
 <h1 align="center" >
     <img src="./assets/header.png" alt="pink cord" width="100%">
 </h1>
-<h2 align='center' >SUBTITLE</h2>
+<h2 align='center'>A discord inspired platform</h2>
 <p align="center"><i>“And when at last the work is done, don't sit down it's time to dig another one" ~Pink Floyd, 'Breathe' (1973)</i> </p>
 <table align="right">
  <tr><td><a href="https://github.com/Carol42/PinkCord/blob/main/README-en.md">:us: English</a></td></tr>
@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/static/v1?label=🚧 status&message=under+development&color=FDD23F&style=plastic&logo=" alt="status: under development"/>
 </div>
 
-<h3 align='center'>:link:<a href='https://pink-cord.vercel.app/'> Go to the preview (Vercel)</a></h3>
+<h3 align='center'>:link:<a href='https://pink-cord-carol42.vercel.app/'> Go to the preview (Vercel)</a></h3>
 
 <details>
     <summary>Table of Contents</summary>
@@ -43,17 +43,70 @@
 </details>
 
 ## :pushpin: About
-DESCRIÇÃO DO PROJETO
+This project is a chat app inspired on Discord. Developed with React.js and Next.js.
+
+<div align="center">
+    <img alt="project screenshot" width="80%" src="./assets/screenshot1.png">
+</div>
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>
 
 ## :diving_mask: The Immersion
 This project was developed during the <a href="https://www.alura.com.br/imersao-react">Imersão React</a> organized by <a href="https://www.alura.com.br/">Alura</a> and taught by the instructors: <a href="https://twitter.com/omariosouto">Mario Souto</a> and <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a>, with the support of <a href="">Marco Bruno</a> on <a href="https://www.twitch.tv/marcobrunodev">Twitch</a> and the official Imersão React <a href="https://discord.com/">Discord</a>.
 
+<details>
+    <summary>Content covered in classes</summary>
+    <ol>
+        <li>
+            <p>Lesson 01</p>
+            <ul>
+                <li>Initializing a Next.js project;</li>
+                <li>Creating React Components using CSS in JS;</li>
+                <li>The initial structure of a Next.js project;</li>
+                <li>Passing properties to components;</li>
+                <li>Deploying on Vercel.</li>
+            </ul>
+        </li>
+        <li>
+            <p>Lesson 02</p>
+            <ul>
+                <li>Understanding SPAs;</li>
+                <li>Getting to know the React useState;</li>
+                <li>How to work with React events: onSubmit, onClick;</li>
+                <li>Deploying to Vercel after every push to the main branch.</li>
+            </ul>
+        </li>
+        <li>
+            <p>Lesson 03</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <p>Lesson 04</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <p>Lesson 05</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ol>
+</details>
+
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>
 
 ## :hammer_and_wrench: Features
-- [x] .
+- [x] Login screen (homepage)
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>
 
@@ -62,6 +115,10 @@ This project was developed during the <a href="https://www.alura.com.br/imersao-
 - [Next.js](https://nextjs.org/)
 - [Styled-jsx](https://github.com/vercel/styled-jsx)
 - [SkynexUI](https://skynexui.dev/)
+
+#### Fonts
+- [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
+- [Floydian](https://fontmeme.com/fonts/floydian-font/)
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>
 
@@ -84,10 +141,10 @@ $ git clone https://github.com/Carol42/PinkCord
 $ cd PinkCord
 
 # Install the dependencies
-$ 
+$ yarn install
 
 # Start the project
-$ 
+$ yarn dev
 ```
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>
