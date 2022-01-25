@@ -77,7 +77,7 @@ export default function PaginaInicial() {
                     display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
                     backgroundColor: appConfig.theme.colors.primary[500],
                     backgroundImage: 'url(https://github.com/Carol42/PinkCord/blob/main/assets/bg.png?raw=true)',
-                    backgroundRepeat: 'repeat', backgroundSize: 'contain', backgroundBlendMode: 'multiply',
+                    backgroundRepeat: 'repeat-x', backgroundSize: '100%', backgroundBlendMode: 'multiply',
                     backgroundPosition: 'center',
                 }}
             >
