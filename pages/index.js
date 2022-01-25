@@ -77,7 +77,7 @@ export default function PaginaInicial() {
                     display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
                     backgroundColor: appConfig.theme.colors.primary[500],
                     backgroundImage: 'url(https://github.com/Carol42/PinkCord/blob/main/assets/bg.png?raw=true)',
-                    backgroundRepeat: 'repeat-x', backgroundSize: 'contain', backgroundBlendMode: 'multiply',
+                    backgroundRepeat: 'repeat', backgroundSize: 'contain', backgroundBlendMode: 'multiply',
                     backgroundPosition: 'center',
                 }}
             >
@@ -130,7 +130,7 @@ export default function PaginaInicial() {
                                 contrastColor: appConfig.theme.colors.neutrals["000"],
                                 mainColor: appConfig.theme.colors.primary[500],
                                 mainColorLight: appConfig.theme.colors.primary[400],
-                                mainColorStrong: appConfig.theme.colors.primary[600],
+                                mainColorStrong: appConfig.theme.colors.primary[700],
                             }}
                         />
                         <iframe src="https://open.spotify.com/embed/track/05uGBKRCuePsf43Hfm0JwX?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -165,7 +165,7 @@ export default function PaginaInicial() {
                             variant="body4"
                             styleSheet={{
                                 color: appConfig.theme.colors.neutrals[200],
-                                backgroundColor: appConfig.theme.colors.neutrals[900],
+                                backgroundColor: appConfig.theme.colors.neutrals['900a'],
                                 padding: '3px 10px',
                                 borderRadius: '1000px'
                             }}
