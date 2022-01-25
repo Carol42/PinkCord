@@ -75,7 +75,7 @@ export default function PaginaInicial() {
             <Box
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
-                    backgroundColor: appConfig.theme.colors.primary[500],
+                    backgroundColor: appConfig.theme.colors.primary['800a'],
                     backgroundImage: 'url(https://github.com/Carol42/PinkCord/blob/main/assets/bg.png?raw=true)',
                     backgroundRepeat: 'repeat-x', backgroundSize: '100%', backgroundBlendMode: 'multiply',
                     backgroundPosition: 'center',
