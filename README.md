@@ -25,7 +25,7 @@
     <img src="https://img.shields.io/static/v1?label=🚧 status&message=em+desenvolvimento&color=FDD23F&style=plastic&logo=" alt="status: em desenvolvimento"/>
 </div>
 
-<h3 align='center'>:link:<a href='LINK DA DEMONSTRAÇÃO'> Acessar a demonstração (Vercel)</a></h3>
+<h3 align='center'>:link:<a href='https://pink-cord.vercel.app/'> Acessar a demonstração (Vercel)</a></h3>
 
 <details>
     <summary>Sumário</summary>
