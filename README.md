@@ -88,17 +88,18 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
         <li>
             <p>Aula 03</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Entendendo um pouco mais de como podemos trabalhar com state no React;</li>
+                <li>Trabalhando com arrays no state;</li>
+                <li>Criando um campo que ao apertamos o "Enter", faz o submit das informações;</li>
             </ul>
         </li>
         <li>
             <p>Aula 04</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>AJAX e o que é?</li>
+                <li>Supabase</li>
+                <li>Aba network para debugarmos requests HTTP</li>
+                <li>useEffect no React</li>
             </ul>
         </li>
         <li>
@@ -113,7 +114,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 </details>
 
 <details>
-    <summary>Desafios propostos (das aulas e os meus próprios haha)</summary>
+    <summary>Desafios propostos</summary>
     <ol>
         <li>
             <p>Aula 01</p>
@@ -145,24 +146,62 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
         <li>
             <p>Aula 02</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <p><b>Validação do campo: Só mostrar a imagem se tiver mais de 2 caracteres</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <p>Além da imagem para simbolizar que o usuário não foi encontrado, também alterei a música de exibição para "Is there anybody out there?"</p>
+                    <div align="center">
+                        <img alt="screenshot do campo com 1 caracter apenas e a foto com a imagem dizendo 'brick not found'" width="50%" src="./assets/screenshot-validacao-2-char.png">
+                    </div>
+                    <p>Essa imagem e essa música, além de aparecerem quando só tem 2 ou menos caracteres, também aparecem caso o usuário digitado não exista.</p>
+                    <div align="center">
+                        <img alt="screenshot do campo escrito 'PudimComBatata' e a foto com a imagem dizendo 'brick not found'" width="50%" src="./assets/screenshot-validacao-not-found.png">
+                    </div>
+                    </details>
+                </li>
+                <li>
+                    <p><b>Desafio Master: Pegar outras informações do usuário batendo na API do GitHub; Dica: você vai usar a função fetch do JavaScript</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <p>Utilizei a API para pegar os seguintes dados: Nome do usuário (caso não tenha, ele mostra o login), quantidade de repositórios públicos e seguidores no GitHub (também coloquei os ícones utilizando a lib <a href="https://github.com/primer/octicons">Octicons</a>), empresa (s) e bio do usuário.</p>
+                    <div align="center">
+                        <img alt="screenshot user card" width="50%" src="./assets/screenshot-user-info.png">
+                    </div>
+                    </details>
+                </li>
+                <li>
+                    <p><b>Colocar algo divertido na página 404.js da sua pasta pages e compartilhar com a gente no twitter!</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <div align="center">
+                        <img alt="screenshot da página 404" width="50%" src="./assets/screenshot-404.png">
+                    </div>
+                    </details>
+                </li>
             </ul>
         </li>
         <li>
             <p>Aula 03</p>
             <ul>
-                <li></li>
-                <li></li>
+                <li>
+                    <p><b>Paulo: Colocar o botão de OK para enviar a mensagem</b></p>
+                </li>
+                <li>
+                    <p><b>Mario: Colocar um botão de apagar mensagem! Dica: use o filter</b></p>
+                </li>
                 <li></li>
             </ul>
         </li>
         <li>
             <p>Aula 04</p>
             <ul>
-                <li></li>
-                <li></li>
+                <li>
+                    <p><b>Mario Souto: Mostrar o loading de mensagens (Tem que fazer o mais criativo ein!)</b></p>
+                </li>
+                <li>
+                    <p><b>Paulo Silveira: Fazer um efeito quando passar o mouse em cima (Use esse link como referência: https://pt-br.reactjs.org/docs/events.html#mouse-events)</b></p>
+                </li>
                 <li></li>
             </ul>
         </li>
@@ -193,6 +232,12 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 - [Documentação interativa com Storybook do SkynexUI](https://storybook.skynexui.dev/?path=/story/components-box--box-component)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [CSS Grid Garden](https://cssgridgarden.com/)
+- [Qual a diferença entre forEach e map? #DicasDeJavaScript](https://www.youtube.com/watch?v=JbzcLKiTThk)
+- [O que é Latência? O que é CDN? Como deixar seu site mais rápido? WebVitals e dicas de performance!](https://www.youtube.com/watch?v=x4eyf5L5caY)
+- [Entendendo como fazer AJAX com a FetchAPI](https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6)
+- [HTTP Status Dogs](https://httpstatusdogs.com/)
+- [API do GitHub](https://api.github.com/users/omariosouto)
+- [Dev em T](https://www.alura.com.br/dev-em-t)
 - []()
 - []()
 
@@ -219,6 +264,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 - [Next.js](https://nextjs.org/)
 - [Styled-jsx](https://github.com/vercel/styled-jsx)
 - [SkynexUI](https://skynexui.dev/)
+- [Octicons](https://github.com/primer/octicons)
 
 #### Fontes
 - [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)

@@ -32,7 +32,7 @@
         <li><a href="#pushpin-about">About</a></li>
         <li><a href="#diving_mask-the-immersion">The Immersion</a></li>
         <li><a href="#hammer_and_wrench-features">Features</a></li>
-        <li><a href="#wrench-technologies">Technologies</a></li>
+        <li><a href="#wrench-technologies-and-resources">Technologies and Resources</a></li>
         <li><a href="#computer-how-to-download-and-run-the-project">How to download and run the project</a>
             <ul>
                 <li><a href="#bulb-prerequisites">Prerequisites</a></li>
@@ -110,11 +110,12 @@ This project was developed during the <a href="https://www.alura.com.br/imersao-
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>
 
-## :wrench: Technologies
+## :wrench: Technologies and Resources
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Styled-jsx](https://github.com/vercel/styled-jsx)
 - [SkynexUI](https://skynexui.dev/)
+- [Octicons](https://github.com/primer/octicons)
 
 #### Fonts
 - [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
