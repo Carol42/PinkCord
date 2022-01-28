@@ -33,7 +33,7 @@
         <li><a href="#pushpin-sobre">Sobre</a></li>
         <li><a href="#diving_mask-a-imersão">A Imersão</a>
             <ul>
-                <li><a href="#rocket-outras-edições">Outras Edições</a></li>
+                <li><a href="#sparkles-outras-edições">Outras Edições</a></li>
             </ul>
         </li>
         <li><a href="#hammer_and_wrench-funcionalidades">Funcionalidades</a></li>
@@ -153,7 +153,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     <summary>Ver minha solução</summary>
                     <p>Um dos temas que eu mais gosto de usar em meus projetos de estudos é Matrix, sem sombra de dúvidas. Como exemplo posso mencionar <a href="https://github.com/Carol42/Morpheus-Landing-Page">Morpheus Maketing</a>, <a href="https://github.com/Carol42/A-Saga-do-Robo">A Saga do Robô</a>, <a href="https://github.com/Carol42/Meu-site-pessoal">meu primeiro Site Pessoal</a> e até mesmo meu próprio <a href="https://github.com/Carol42/Carol42">README do perfil no GitHub</a>.</p>
                     <p>Porém como esse já era o tema do projeto original da Imersão, então eu tive que pensar em algo diferente. Uma das minhas bandas favoritas é Pink Floyd, então por que não um Pink Matrix?</p>
-                    <p>Foi unindo essas minhas duas paixões que eu criei o tema da aplicação: misturei a arte do álbum 'Dark Side of the Moon', do Pink Floyd, com uma chuva de cógigo rosa! Também apliquei uma transparência no card para que o fundo não ficasse escondido completamente.</p>
+                    <p>Foi unindo essas minhas duas paixões que eu criei o tema da aplicação: misturei a arte do álbum 'Dark Side of the Moon', do Pink Floyd, com uma chuva de código rosa! Também apliquei uma transparência no card para que o fundo não ficasse escondido completamente.</p>
                     <p>A paleta de cores que eu criei para o projeto foi:</p>
                     <div align="center">
                         <img alt="paleta de cores" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/color-palette.png">
@@ -288,11 +288,12 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
         <li>Gastar muito tempo lendo documentação não vai adiantar quase nada se não tentar colocar em prática, porém, dar uma olhada na seção "getting started" antes de começar pode ajudar bastante.</li>
         <li>Mais do que ser um usuário de ferramenta, buscar entender o que está por debaixo dos panos é muito importante. Obviamente, começando aos poucos.</li>
         <li>Não existe uma ferramenta melhor ou mais indicada, tudo vai depender do projeto e dos conhecimentos do time.</li>
+        <li>É muito importante tentar ter uma noção mínima do que as libs que você está usando fazem no projeto. Isso traz o sentimento de "eu sei o que está acontecendo no meu projeto", e dimunui a sensação de que os dados aparecem "magicamente" na tela.</li>
         <li>Devemos ser curiosos, como cientistas, nerds, geeks de verdade!</li>
     </ul>
 </details>
 
-### :rocket: Outras edições
+### :sparkles: Outras edições
 <p>Veja meus projetos desenvolvidos em outras Imersões da Alura!</p>
 <ul>
     <li>Imersão React 4 (<a href="https://github.com/Carol42/PinkCord">PinkCord</a>)</li>
