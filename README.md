@@ -31,7 +31,11 @@
     <summary>Sumário</summary>
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
-        <li><a href="#diving_mask-a-imersão">A Imersão</a></li>
+        <li><a href="#diving_mask-a-imersão">A Imersão</a>
+            <ul>
+                <li><a href="#rocket-outras-edições">Outras Edições</a></li>
+            </ul>
+        </li>
         <li><a href="#hammer_and_wrench-funcionalidades">Funcionalidades</a></li>
         <li><a href="#wrench-tecnologias-e-recursos-utilizados">Tecnologias e recursos utilizados</a></li>
         <li><a href="#computer-como-baixar-e-rodar-o-projeto">Como baixar e rodar o projeto</a>
@@ -53,7 +57,7 @@ O projeto trata-se de uma aplicação de chat inspirada no Discord. Desenvolvido
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=F967BC&logo" alt="voltar ao topo" /></a></p>
 
 ## :diving_mask: A Imersão
-Esse projeto foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-react">Imersão React</a> proposta pela <a href="https://www.alura.com.br/">Alura</a> e ministrada pelos instrutores <a href="https://twitter.com/omariosouto">Mario Souto</a> e <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a>, com o apoio de <a href="">Marco Bruno</a> pela <a href="https://www.twitch.tv/marcobrunodev">Twitch</a> e pelo <a href="https://discord.com/">Discord</a> oficial da Imersão.
+Esse projeto foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-react">Imersão React</a> 4 proposta pela <a href="https://www.alura.com.br/">Alura</a> e ministrada pelos instrutores <a href="https://twitter.com/omariosouto">Mario Souto</a> e <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a>, com o apoio de <a href="">Marco Bruno</a> pela <a href="https://www.twitch.tv/marcobrunodev">Twitch</a> e pelo <a href="https://discord.com/">Discord</a> oficial da Imersão.
 
 Layout original da aplicação, desenvolvido durante as aulas:
 
@@ -100,6 +104,30 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                 <li>Supabase</li>
                 <li>Aba network para debugarmos requests HTTP</li>
                 <li>useEffect no React</li>
+            </ul>
+        </li>
+        <li>
+            <p>Live 02</p>
+            <ul>
+                <p><b>Mergulhando em TypeScript e React</b></p>
+                <p>Nessa live o <a href="https://twitter.com/omariosouto">Mario Souto</a> apresentou o TypeScript e como podemos aplicar em nossos projetos que utilizam React. Os principais tópicos abordados foram:</p>
+                <li>Inicializando um projeto em React usando o Next;</li>
+                <li>Adicionando tipos às variáveis;</li>
+                <li>Entendendo a diferença entre Interface e Type</li>
+                <li>Adicionando tipagem à função de pegar dados da API do GitHub feita nas aulas;</li>
+                <li>Entendendo a importância do TypeScript em projetos grandes e com muitos colaboradores;</li>
+                <li>Mas também observando que nem todo projeto precisa migrar para o TS;</li>
+                <li>Introdução à tipagem em arrays de objetos;</li>
+                <li>Introdução à tipagem em funções que retornam resultado;</li>
+                <li>
+                    <ul>
+                        <p>Indicação de materiais:</p>
+                        <li><a href="https://www.typescriptlang.org/docs/handbook/">TypeScript Handbook</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=x3-s0HidA04">Dev Soutinho - 5 Livros de programação que mudaram minha carreira</a></li>
+                        <li><a href="https://www.casadocodigo.com.br/products/livro-oo-solid?_pos=1&_sid=f8341a4cf&_ss=r">Livro - Orientação a Objetos e SOLID para Ninjas</a></li>
+                        <li><a href="https://www.casadocodigo.com.br/products/livro-tdd?_pos=1&_sid=f52cd1b82&_ss=r">Livro -  Test-Driven Development</a></li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <li>
@@ -219,27 +247,39 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 <details>
     <summary>Conteúdos extras</summary>
 
-- [Formulários em React com Engenharia Reversa no Formik | DevSoutinho](https://www.youtube.com/watch?v=cMq6k7ymv2s)
-- [Como pegar dados de uma API? Como fazer AJAX ou "AJAJ"! | Pegando dados de serviços via JavaScript](https://www.youtube.com/watch?v=85vJXFpXLQw)
-- [O que todo projeto deveria ter? #01 | GitHub PRO + Projetos Organizados + Linter + EditorConfig](https://www.youtube.com/watch?v=yMRSDdifGW8&t=2s)
+#### Introdução
+- [Do Zero ao React | Como fazer o React e aprender a ideia do Virtual DOM na prática](https://www.youtube.com/watch?v=5MzOCxSWrrc)
+- [Quantas linguagens de programação eu preciso SABER?](https://www.youtube.com/watch?v=FDQbzP7PBiw)
+- [Curso de JavaScript para React](https://www.youtube.com/playlist?list=PLirko8T4cEmzWZVn_ZKQbfDOuCnSZJ4va)
+- [Como configurar ambiente JavaScript/NodeJS para trabalhar? DO JEITO CERTO](https://www.youtube.com/watch?v=GIz71YGzwP4)
+
+
+#### JavaScript
+- [Como pegar dados de uma API? Como fazer AJAX ou "AJAJ"! (vídeo)](https://www.youtube.com/watch?v=85vJXFpXLQw)
+- [Entendendo como fazer AJAX com a FetchAPI (artigo)](https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6)
 - [Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!](https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej)
-- [Como reduzir a quantidade de ifs do seu código com Strategy | #DevSoutinho](https://www.youtube.com/watch?v=S-jqd6WZ7M0)
-- [Como pegar dados de uma API? Como fazer AJAX ou "AJAJ"! | Pegando dados de serviços via JavaScript](https://www.youtube.com/watch?v=85vJXFpXLQw)
-- [Como funciona a navegação SPA no NextJS? O componente Link | Pokédex #MergulhoNextJS](https://www.youtube.com/watch?v=-kVnp3fg-v4)
-- [Como centralizar no CSS? 3 formas, Vertical/Horizontal + Bônus #DicasDeCSS](https://www.youtube.com/watch?v=Cu-HP-gvggg)
-- [Como documentar códigos? Documentando Front End com Storybook!](https://www.youtube.com/watch?v=R41_Qedrzik&t=7s)
-- [Tour pelo meu setup: Como configurar ambiente JavaScript/NodeJS para trabalhar? DO JEITO CERTO](https://www.youtube.com/watch?v=GIz71YGzwP4)
-- [Documentação interativa com Storybook do SkynexUI](https://storybook.skynexui.dev/?path=/story/components-box--box-component)
+- [Como reduzir a quantidade de ifs do seu código com Strategy](https://www.youtube.com/watch?v=S-jqd6WZ7M0)
+- [Qual a diferença entre forEach e map?](https://www.youtube.com/watch?v=JbzcLKiTThk)
+- [O que é Latência? O que é CDN? Como deixar seu site mais rápido? WebVitals e dicas de performance!](https://www.youtube.com/watch?v=x4eyf5L5caY)
+
+#### CSS
+- [Como centralizar no CSS?](https://www.youtube.com/watch?v=Cu-HP-gvggg)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [CSS Grid Garden](https://cssgridgarden.com/)
-- [Qual a diferença entre forEach e map? #DicasDeJavaScript](https://www.youtube.com/watch?v=JbzcLKiTThk)
-- [O que é Latência? O que é CDN? Como deixar seu site mais rápido? WebVitals e dicas de performance!](https://www.youtube.com/watch?v=x4eyf5L5caY)
-- [Entendendo como fazer AJAX com a FetchAPI](https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6)
+
+#### React
+- [Formulários em React com Engenharia Reversa no Formik](https://www.youtube.com/watch?v=cMq6k7ymv2s)
+- [Como funciona a navegação SPA no NextJS? O componente Link](https://www.youtube.com/watch?v=-kVnp3fg-v4)
+
+#### Dicas para projetos
+- [O que todo projeto deveria ter? #01 | GitHub PRO + Projetos Organizados + Linter + EditorConfig](https://www.youtube.com/watch?v=yMRSDdifGW8&t=2s)
+- [Como documentar códigos? Documentando Front End com Storybook!](https://www.youtube.com/watch?v=R41_Qedrzik&t=7s)
+
+#### Outros materiais
+- [Documentação interativa com Storybook do SkynexUI](https://storybook.skynexui.dev/?path=/story/components-box--box-component)
 - [HTTP Status Dogs](https://httpstatusdogs.com/)
 - [API do GitHub](https://api.github.com/users/omariosouto)
 - [Dev em T](https://www.alura.com.br/dev-em-t)
-- []()
-- []()
 
 </details>
 <details>
@@ -251,11 +291,24 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
     </ul>
 </details>
 
+### :rocket: Outras edições
+<p>Veja meus projetos desenvolvidos em outras Imersões da Alura!</p>
+<ul>
+    <li>Imersão React 4 (<a href="https://github.com/Carol42/PinkCord">PinkCord</a>)</li>
+    <li>Imersão React 2 (<a href="https://github.com/Carol42/cladoquiz">Cladoquiz</a>)</li>
+    <li>Imersão React 1 (<a href="https://github.com/Carol42/DiverStudy">DiverStudy</a>) e (<a href="https://github.com/Carol42/Disnil">Disnil</a>)</li>
+    <li>Imersão GameDev (<a href="https://github.com/Carol42/A-Saga-do-Robo">A Saga do Robô</a>)</li>
+    <li>Imersão CSS (<a href="https://github.com/Carol42/Meu-site-pessoal">Site-portfólio</a>)</li>
+    <li>QuarentenaDev (<a href="https://codepen.io/Carol42/pen/bGVGMXw">Exercícios Lógica de Programação</a>)</li>
+</ul>
+
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=F967BC&logo" alt="voltar ao topo" /></a></p>
 
 
 ## :hammer_and_wrench: Funcionalidades
 - [x] Tela de login (página inicial)
+- [x] Busca de dados do usuário via API do GitHub
+- [x] Página 404 customizada
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=F967BC&logo" alt="voltar ao topo" /></a></p>
 
