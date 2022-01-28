@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h1 align="center" >
-    <img src="./assets/header.png" alt="pink cord" width="100%">
+    <img src="https://github.com/Carol42/PinkCord/blob/main/assets/header.png" alt="pink cord" width="100%">
 </h1>
 <h2 align='center'>A discord inspired platform</h2>
 <p align="center"><i>“And when at last the work is done, don't sit down it's time to dig another one" ~Pink Floyd, 'Breathe' (1973)</i> </p>
@@ -46,7 +46,7 @@
 This project is a chat app inspired on Discord. Developed with React.js and Next.js.
 
 <div align="center">
-    <img alt="project screenshot" width="80%" src="./assets/screenshot1.png">
+    <img alt="project screenshot" width="80%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot1.png">
 </div>
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=F967BC&logo" alt="back to top" /></a></p>

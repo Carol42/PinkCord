@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h1 align="center" >
-    <img src="./assets/header.png" alt="pink cord" width="100%">
+    <img src="https://github.com/Carol42/PinkCord/blob/main/assets/header.png" alt="pink cord" width="100%">
 </h1>
 <h2 align='center' >Uma plataforma inspirada no Discord</h2>
 <p align="center"><i>“And when at last the work is done, don't sit down it's time to dig another one" ~Pink Floyd, 'Breathe' (1973)</i> </p>
@@ -51,7 +51,7 @@
 O projeto trata-se de uma aplicação de chat inspirada no Discord. Desenvolvido com React.js e Next.js.
 
 <div align="center">
-    <img alt="screenshot do projeto" width="80%" src="./assets/screenshot1.png">
+    <img alt="screenshot do projeto" width="80%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot1.png">
 </div>
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=F967BC&logo" alt="voltar ao topo" /></a></p>
@@ -62,7 +62,7 @@ Esse projeto foi desenvolvido durante a <a href="https://www.alura.com.br/imersa
 Layout original da aplicação, desenvolvido durante as aulas:
 
 <div align="center">
-     <img alt="layout original" width="50%" src="./assets/screenshot-original.png">
+     <img alt="layout original" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-original.png">
 </div>
 
 O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do projeto base</a> conta com uma <a href="https://github.com/alura-challenges/aluracord-matrix#contribuidores">vitrine</a> onde podem ser vistos todos projetos das pessoas que estão participando dessa Imersão!
@@ -156,15 +156,15 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     <p>Foi unindo essas minhas duas paixões que eu criei o tema da aplicação: misturei a arte do álbum 'Dark Side of the Moon', do Pink Floyd, com uma chuva de cógigo rosa! Também apliquei uma transparência no card para que o fundo não ficasse escondido completamente.</p>
                     <p>A paleta de cores que eu criei para o projeto foi:</p>
                     <div align="center">
-                        <img alt="paleta de cores" width="50%" src="./assets/color-palette.png">
+                        <img alt="paleta de cores" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/color-palette.png">
                     </div>
                     <p>O fundo que eu criei para o projeto:</p>
                     <div align="center">
-                        <img alt="paleta de cores" width="50%" src="./assets/bg.png">
+                        <img alt="paleta de cores" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/bg.png">
                     </div>
                     <p>Já que o tema era relacionado a música, achei válido também colocar um player do Spotify com uma preview de uma das músicas do Pink Floyd :heart:</p>
                     <div align="center">
-                        <img alt="paleta de cores" width="50%" src="./assets/screenshot-player.png">
+                        <img alt="music player" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-player.png">
                     </div>
                     <p>A frase inicial também é uma referência a uma das músicas da banda.</p>
                     </details>
@@ -180,11 +180,11 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     <summary>Ver minha solução</summary>
                     <p>Além da imagem para simbolizar que o usuário não foi encontrado, também alterei a música de exibição para "Is there anybody out there?"</p>
                     <div align="center">
-                        <img alt="screenshot do campo com 1 caracter apenas e a foto com a imagem dizendo 'brick not found'" width="50%" src="./assets/screenshot-validacao-2-char.png">
+                        <img alt="screenshot do campo com 1 caracter apenas e a foto com a imagem dizendo 'brick not found'" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-validacao-2-char.png">
                     </div>
                     <p>Essa imagem e essa música, além de aparecerem quando só tem 2 ou menos caracteres, também aparecem caso o usuário digitado não exista.</p>
                     <div align="center">
-                        <img alt="screenshot do campo escrito 'PudimComBatata' e a foto com a imagem dizendo 'brick not found'" width="50%" src="./assets/screenshot-validacao-not-found.png">
+                        <img alt="screenshot do campo escrito 'PudimComBatata' e a foto com a imagem dizendo 'brick not found'" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-validacao-not-found.png">
                     </div>
                     </details>
                 </li>
@@ -194,7 +194,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     <summary>Ver minha solução</summary>
                     <p>Utilizei a API para pegar os seguintes dados: Nome do usuário (caso não tenha, ele mostra o login), quantidade de repositórios públicos e seguidores no GitHub (também coloquei os ícones utilizando a lib <a href="https://github.com/primer/octicons">Octicons</a>), empresa (s) e bio do usuário.</p>
                     <div align="center">
-                        <img alt="screenshot user card" width="50%" src="./assets/screenshot-user-info.png">
+                        <img alt="screenshot user card" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-user-info.png">
                     </div>
                     </details>
                 </li>
@@ -203,7 +203,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     <details>
                     <summary>Ver minha solução</summary>
                     <div align="center">
-                        <img alt="screenshot da página 404" width="50%" src="./assets/screenshot-404.png">
+                        <img alt="screenshot da página 404" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-404.png">
                     </div>
                     </details>
                 </li>
@@ -287,6 +287,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
     <ul>
         <li>Gastar muito tempo lendo documentação não vai adiantar quase nada se não tentar colocar em prática, porém, dar uma olhada na seção "getting started" antes de começar pode ajudar bastante.</li>
         <li>Mais do que ser um usuário de ferramenta, buscar entender o que está por debaixo dos panos é muito importante. Obviamente, começando aos poucos.</li>
+        <li>Não existe uma ferramenta melhor ou mais indicada, tudo vai depender do projeto e dos conhecimentos do time.</li>
         <li>Devemos ser curiosos, como cientistas, nerds, geeks de verdade!</li>
     </ul>
 </details>
