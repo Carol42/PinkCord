@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h1 align="center" >
-    <img src="https://github.com/Carol42/PinkCord/blob/main/assets/header.png" alt="pink cord" width="100%">
+    <img src="https://github.com/Carol42/PinkCord/blob/main/assets/header.png?raw=true" alt="pink cord" width="100%">
 </h1>
 <h2 align='center' >Uma plataforma inspirada no Discord</h2>
 <p align="center"><i>“And when at last the work is done, don't sit down it's time to dig another one" ~Pink Floyd, 'Breathe' (1973)</i> </p>
@@ -57,7 +57,7 @@ O projeto trata-se de uma aplicação de chat inspirada no Discord. Desenvolvido
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=F967BC&logo" alt="voltar ao topo" /></a></p>
 
 ## :diving_mask: A Imersão
-Esse projeto foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-react">Imersão React</a> 4 proposta pela <a href="https://www.alura.com.br/">Alura</a> e ministrada pelos instrutores <a href="https://twitter.com/omariosouto">Mario Souto</a> e <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a>, com o apoio de <a href="">Marco Bruno</a> pela <a href="https://www.twitch.tv/marcobrunodev">Twitch</a> e pelo <a href="https://discord.com/">Discord</a> oficial da Imersão.
+Esse projeto foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-react">Imersão React</a> 4 proposta pela <a href="https://www.alura.com.br/">Alura</a> e ministrada pelos instrutores <a href="https://twitter.com/omariosouto">Mario Souto</a> e <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a>, com o apoio de <a href="">Marco Bruno</a> pela <a href="https://www.twitch.tv/marcobrunodev">Twitch</a> e pelo <a href="https://discord.com/">Discord</a> oficial da Imersão e apoio da <a href="https://twitter.com/juunegreiros">Juliana Negreiros</a>, também no <a href="https://discord.com/">Discord</a>.
 
 Layout original da aplicação, desenvolvido durante as aulas:
 

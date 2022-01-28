@@ -1,5 +1,226 @@
+import { Box, Text, TextField, Image, Button } from '@skynexui/components';
+import React, { useState } from 'react';
+import appConfig from '../config.json';
+import { XIcon, PaperAirplaneIcon } from '@primer/octicons-react';
+
+
 export default function ChatPage() {
+    const [mensagem, setMensagem] = useState();
+    const [listaDeMensagens, setListaDeMensagens] = React.useState([]);
+
+    function handleNovaMensagem(novaMensagem) {
+        const mensagem = {
+            id: listaDeMensagens.length + 1,
+            de: 'vanessametonini',
+            texto: novaMensagem,
+        };
+
+        setListaDeMensagens([
+            mensagem,
+            ...listaDeMensagens,
+        ]);
+        setMensagem('');
+    }
+
     return (
-        <div>Página do Chat</div>
+        <Box
+            styleSheet={{
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                backgroundColor: appConfig.theme.colors.primary[500],
+                backgroundImage: `url(https://github.com/Carol42/PinkCord/blob/main/assets/bg.png?raw=true)`,
+                backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
+                color: appConfig.theme.colors.neutrals['000']
+            }}
+        >
+            <Box
+                styleSheet={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: 1,
+                    boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
+                    borderRadius: '5px',
+                    backgroundColor: appConfig.theme.colors.neutrals['999a'],
+                    height: '100%',
+                    maxWidth: '95%',
+                    maxHeight: '95vh',
+                    padding: '32px',
+                }}
+            >
+                <Header />
+                <Box
+                    styleSheet={{
+                        position: 'relative',
+                        display: 'flex',
+                        flex: 1,
+                        height: '80%',
+                        backgroundColor: appConfig.theme.colors.neutrals['700a'],
+                        flexDirection: 'column',
+                        borderRadius: '5px',
+                        padding: '16px',
+                    }}
+                >
+                    <MessageList mensagens={listaDeMensagens} />
+
+                    <Box
+                        as="form"
+                        styleSheet={{
+                            display: 'flex',
+                            alignItems: 'center',
+                        }}
+                    >
+                        <TextField
+                            value={mensagem}
+                            onChange={(event) => {
+                                const valor = event.target.value;
+                                setMensagem(valor);
+                            }}
+                            onKeyPress={(event) => {
+                                if (event.key === 'Enter') {
+                                    event.preventDefault();
+                                    handleNovaMensagem(mensagem);
+                                }
+                            }}
+                            placeholder="Insira sua mensagem aqui..."
+                            type="textarea"
+                            styleSheet={{
+                                width: '100%',
+                                border: '0',
+                                resize: 'none',
+                                borderRadius: '5px',
+                                padding: '6px 8px',
+                                backgroundColor: appConfig.theme.colors.neutrals['999a'],
+                                marginRight: '12px',
+                                color: appConfig.theme.colors.primary[400],
+                            }}
+                        />
+                        <Button
+                            label={<PaperAirplaneIcon size="small" />}
+                            onClick={() => {
+                                handleNovaMensagem(mensagem);
+                            }}
+                            buttonColors={{
+                                contrastColor: appConfig.theme.colors.neutrals["000"],
+                                mainColor: appConfig.theme.colors.primary[500],
+                                mainColorLight: appConfig.theme.colors.primary[400],
+                                mainColorStrong: appConfig.theme.colors.primary[700],
+                            }}
+                            styleSheet={{
+                                borderRadius: '50%',
+                                width: '4em',
+                                height: '4em'
+                            }}
+                        />
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
     )
-  }
+}
+
+function Header() {
+    return (
+        <>
+            <Box styleSheet={{ width: '100%', marginBottom: '16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }} >
+                <Text variant='heading4' styleSheet={{ color: appConfig.theme.colors.primary[500] }}>
+                    Chat
+                </Text>
+                <Image alt="pinkcord logo" width="20%" src='https://github.com/Carol42/PinkCord/blob/main/assets/header-pinkcord2.png?raw=true' />
+                <Button
+                    variant='tertiary'
+                    label='Logout'
+                    href="/"
+                    buttonColors={{
+                        contrastColor: appConfig.theme.colors.neutrals["000"],
+                        mainColor: appConfig.theme.colors.primary[500],
+                        mainColorLight: appConfig.theme.colors.primary[400],
+                    }}
+                />
+            </Box>
+        </>
+    )
+}
+
+function MessageList(props) {
+    console.log('MessageList', props);
+
+    return (
+        <Box
+            tag="ul"
+            styleSheet={{
+                overflow: 'scroll',
+                display: 'flex',
+                flexDirection: 'column-reverse',
+                flex: 1,
+                color: appConfig.theme.colors.neutrals["000"],
+                marginBottom: '16px',
+            }}
+        >
+            {props.mensagens.map((mensagem) => {
+                return (
+                    <>
+                        <Text
+                            key={mensagem.id}
+                            tag="li"
+                            styleSheet={{
+                                borderRadius: '5px',
+                                padding: '6px',
+                                marginBottom: '12px',
+                                hover: {
+                                    backgroundColor: appConfig.theme.colors.neutrals[700],
+                                }
+                            }}
+                        >
+                            <Box
+                                styleSheet={{
+                                    marginBottom: '8px',
+                                }}
+                            >
+                                <Image
+                                    styleSheet={{
+                                        width: '20px',
+                                        height: '20px',
+                                        borderRadius: '50%',
+                                        display: 'inline-block',
+                                        marginRight: '8px',
+                                    }}
+                                    src={`https://github.com/vanessametonini.png`}
+                                />
+                                <Text tag="strong">
+                                    {mensagem.de}
+                                </Text>
+                                <Text
+                                    styleSheet={{
+                                        fontSize: '10px',
+                                        marginLeft: '8px',
+                                        color: appConfig.theme.colors.neutrals[300],
+                                    }}
+                                    tag="span"
+                                >
+                                    {(new Date().toLocaleDateString())}
+                                    &nbsp;às&nbsp;
+                                    {(new Date().toLocaleTimeString())}
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Text>
+                                <Button
+                                    variant='tertiary'
+                                    label={<XIcon />}
+                                    onClick={() => {
+                                    }}
+                                    styleSheet={{
+                                        width: '0.5em',
+                                        height: '0.5em',
+                                    }}
+                                    buttonColors={{
+                                        contrastColor: appConfig.theme.colors.neutrals["000"],
+                                        mainColor: appConfig.theme.colors.primary[500],
+                                    }}
+                                />
+                            </Box>
+                            {mensagem.texto}
+                        </Text>
+                    </>
+                );
+            })}
+        </Box>
+    )
+}

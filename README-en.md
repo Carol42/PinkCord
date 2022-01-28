@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h1 align="center" >
-    <img src="https://github.com/Carol42/PinkCord/blob/main/assets/header.png" alt="pink cord" width="100%">
+    <img src="https://github.com/Carol42/PinkCord/blob/main/assets/header.png?raw=true" alt="pink cord" width="100%">
 </h1>
 <h2 align='center'>A discord inspired platform</h2>
 <p align="center"><i>“And when at last the work is done, don't sit down it's time to dig another one" ~Pink Floyd, 'Breathe' (1973)</i> </p>
