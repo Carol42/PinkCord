@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 function GlobalStyle() {
     return (
         <style global jsx>{`
@@ -31,6 +33,13 @@ function GlobalStyle() {
 export default function CustomApp({ Component, pageProps }) {
     return (
         <>
+            <Head>
+                <title>PinkCord</title>
+                <link rel="icon" type="image/png" href="https://github.com/Carol42/PinkCord/blob/main/assets/pink-floyd.png?raw=true" />
+                <meta charSet="utf-8" />
+                <meta name="description" content="A chat platform inspired by Discord & Pink Floyd & Matrix" />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <GlobalStyle />
             <Component {...pageProps} />
         </>

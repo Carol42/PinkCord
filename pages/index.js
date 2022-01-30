@@ -1,9 +1,8 @@
-import React from 'react';
-import Head from 'next/head';
+import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { Box, Button, Text, TextField, Image } from '@skynexui/components';
 import appConfig from "../config.json";
-import { RepoIcon, PeopleIcon } from '@primer/octicons-react';
+import UserCard from '../components/UserCard';
 
 function Title(props) {
     const Tag = props.tag || 'h1';
@@ -73,13 +72,6 @@ export default function PaginaInicial() {
 
     return (
         <>
-            <Head>
-                <title>PinkCord</title>
-                <link rel="icon" type="image/png" href="https://github.com/Carol42/PinkCord/blob/main/assets/pink-floyd.png?raw=true" />
-                <meta charSet="utf-8" />
-                <meta name="description" content="A chat platform inspired by Discord & Pink Floyd & Matrix" />
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            </Head>
             <Box
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
@@ -110,7 +102,7 @@ export default function PaginaInicial() {
                         onSubmit={function (infosDoEvento) {
                             infosDoEvento.preventDefault();
                             console.log('Alguém submeteu o form');
-                            { username.length > 2 && userPhoto != null ? roteamento.push('/chat') : roteamento.push('/404') };
+                            { username.length > 2 && userPhoto != null ? roteamento.push(`/chat?username=${username}`) : roteamento.push('/404') };
                             // window.location.href = '/chat';
                         }}
                         styleSheet={{
@@ -125,6 +117,8 @@ export default function PaginaInicial() {
                         </Text>
 
                         <TextField
+                            required
+                            placeholder='Digite o seu usuário do GitHub...'
                             value={username}
                             onChange={function (event) {
                                 console.log('usuario digitou', event.target.value);
@@ -162,78 +156,9 @@ export default function PaginaInicial() {
 
 
                     {/* Photo Area */}
-                    <Box
-                        styleSheet={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            maxWidth: '270px',
-                            padding: '16px',
-                            backgroundColor: appConfig.theme.colors.neutrals['700a'],
-                            border: '1px solid',
-                            borderColor: appConfig.theme.colors.neutrals[999],
-                            borderRadius: '10px',
-                            flex: 1,
-                            minHeight: '240px',
-                        }}
-                    >
-                        <a target='_blank' href={username.length > 2 && userPhoto != null ? userUrl : null}><Image
-                            styleSheet={{
-                                borderRadius: '50%',
-                                marginBottom: '16px',
-                            }}
-                            src={username.length > 2 && userPhoto != null ? userPhoto : 'https://github.com/Carol42/PinkCord/blob/main/assets/brick-not-found.png?raw=true'}
-                        /></a>
-                        <Text
-                            variant="body4"
-                            styleSheet={{
-                                color: appConfig.theme.colors.neutrals[200],
-                                backgroundColor: appConfig.theme.colors.neutrals['900a'],
-                                padding: '3px 10px',
-                                borderRadius: '1000px',
-                                fontWeight: 700,
-                                fontSize: '16px'
-                            }}
-                        >
-                            {username.length > 2 && userPhoto != null ? userName || username : null}
-                        </Text>
-                        <Text
-                            variant="body4"
-                            styleSheet={{
-                                color: appConfig.theme.colors.neutrals[200],
-                                backgroundColor: appConfig.theme.colors.neutrals['900a'],
-                                padding: '3px 10px',
-                                borderRadius: '1000px'
-                            }}
-                        >
-                            <RepoIcon />  Repos: {username.length > 2 && userPhoto != null ? userRepos : '-'}  <PeopleIcon /> Followers: {username.length > 2 && userPhoto != null ? userFollowers : '-'}
-                        </Text>
-                        <Text
-                            variant="body4"
-                            styleSheet={{
-                                color: appConfig.theme.colors.neutrals[200],
-                                backgroundColor: appConfig.theme.colors.neutrals['900a'],
-                                padding: '3px 10px',
-                                borderRadius: '1000px',
-                                textAlign: 'center'
-                            }}
-                        >
-                            {username.length > 2 ? userCompany : null}
-                        </Text>
-                        <Text
-                            variant="body4"
-                            styleSheet={{
-                                color: appConfig.theme.colors.neutrals[200],
-                                backgroundColor: appConfig.theme.colors.neutrals['900a'],
-                                padding: '3px 10px',
-                                borderRadius: '1000px',
-                                textAlign: 'center'
-                            }}
-                        >
-                            {username.length > 2 ? userBio : null}
-                        </Text>
-
-                    </Box>
+                    <UserCard
+                        username={username}
+                    />
                     {/* Photo Area */}
                 </Box>
             </Box>

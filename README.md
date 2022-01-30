@@ -133,9 +133,8 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
         <li>
             <p>Aula 05</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Web Sockets</li>
+                <li>Adicionando stickers no projeto</li>
             </ul>
         </li>
     </ol>
@@ -214,9 +213,22 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
             <ul>
                 <li>
                     <p><b>Paulo: Colocar o botão de OK para enviar a mensagem</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <p>Esse botão chama a mesma função que a tecla enter (envia mensagem).</p>
+                    <div align="center">
+                        <img alt="screenshot do botão de enviar mensagem" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-send-button.png">
+                    </div>
+                    </details>
                 </li>
                 <li>
                     <p><b>Mario: Colocar um botão de apagar mensagem! Dica: use o filter</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <div align="center">
+                        <img alt="screenshot do botão de apagar mensagem" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-delete-msg-button.png">
+                    </div>
+                    </details>
                 </li>
                 <li></li>
             </ul>
@@ -226,9 +238,27 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
             <ul>
                 <li>
                     <p><b>Mario Souto: Mostrar o loading de mensagens (Tem que fazer o mais criativo ein!)</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <p>Não podia faltar a animaçãozinha do Dark Side of the Moon haha</p>
+                    <div align="center">
+                        <img alt="gravação da tela de loading" width="40%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenrec-loading.gif">
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div align="center">
+                        <img alt="animação de loading" width="20%" src="https://github.com/Carol42/PinkCord/blob/main/assets/pink-floyd.gif">
+                    </div>
+                    </details>
                 </li>
                 <li>
                     <p><b>Paulo Silveira: Fazer um efeito quando passar o mouse em cima (Use esse link como referência: https://pt-br.reactjs.org/docs/events.html#mouse-events)</b></p>
+                    <details>
+                    <summary>Ver minha solução</summary>
+                    <p>Aproveitei o mesmo componente que mostra os dados do usuário na página inicial para mostrá-lo quando passar o mouse por cima da foto ou do nome.</p>
+                    <div align="center">
+                        <img alt="screenshot do card do usuário ao passar o mouse por cima do seu nome" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-hover-card.png">
+                    </div>
+                    </details>
                 </li>
                 <li></li>
             </ul>
@@ -274,6 +304,8 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 #### Dicas para projetos
 - [O que todo projeto deveria ter? #01 | GitHub PRO + Projetos Organizados + Linter + EditorConfig](https://www.youtube.com/watch?v=yMRSDdifGW8&t=2s)
 - [Como documentar códigos? Documentando Front End com Storybook!](https://www.youtube.com/watch?v=R41_Qedrzik&t=7s)
+- [Playlist - Dicas de Programação - Dev Soutinho](https://www.youtube.com/playlist?list=PLTcmLKdIkOWkJY8LJXs1GDqBnxCGsExBO)
+- [Playlist - Dicas de React e Web em geral - Dev Soutinho](https://www.youtube.com/playlist?list=PLTcmLKdIkOWkVld6KvLJbUCPIOjqLg9cr)
 
 #### Outros materiais
 - [Documentação interativa com Storybook do SkynexUI](https://storybook.skynexui.dev/?path=/story/components-box--box-component)
@@ -311,6 +343,11 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 - [x] Tela de login (página inicial)
 - [x] Busca de dados do usuário via API do GitHub
 - [x] Página 404 customizada
+- [x] Atualiza banco de dados em tempo real
+- [x] Apagar mensagem
+- [x] Enviar stickers / gifs
+- [x] Animação de loading
+- [x] Preview do usuário ao passar o mouse por cima do nome/foto
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=F967BC&logo" alt="voltar ao topo" /></a></p>
 
@@ -320,6 +357,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
 - [Styled-jsx](https://github.com/vercel/styled-jsx)
 - [SkynexUI](https://skynexui.dev/)
 - [Octicons](https://github.com/primer/octicons)
+- [Material UI](https://mui.com/)
 
 #### Fontes
 - [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
