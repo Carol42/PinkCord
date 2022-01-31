@@ -35,7 +35,7 @@ export function ButtonSendSticker(props) {
             filter: 'grayscale(0)',
           }
         }}
-        label="😋"
+        label="💖"
         onClick={() => setOpenState(!isOpen)}
       />
       {isOpen && (

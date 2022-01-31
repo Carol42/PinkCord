@@ -1,7 +1,7 @@
 import { Box, Text, TextField, Image, Button } from '@skynexui/components';
 import React, { useState } from 'react';
 import appConfig from '../config.json';
-import { XIcon, PaperAirplaneIcon } from '@primer/octicons-react';
+import { XIcon, PaperAirplaneIcon, SignOutIcon } from '@primer/octicons-react';
 import { createClient } from '@supabase/supabase-js'
 import { useRouter } from 'next/router';
 import { ButtonSendSticker } from '../components/ButtonSendSticker';
@@ -266,7 +266,7 @@ function Header() {
                 <iframe src="https://open.spotify.com/embed/album/4LH4d3cOWNNsVw41Gqt2kv?utm_source=generator&theme=0" width="25%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                 <Button
                     variant='tertiary'
-                    label='Logout'
+                    label={<SignOutIcon />}
                     href="/"
                     buttonColors={{
                         contrastColor: appConfig.theme.colors.neutrals["000"],
