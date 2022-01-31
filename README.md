@@ -62,7 +62,10 @@ Esse projeto foi desenvolvido durante a <a href="https://www.alura.com.br/imersa
 Layout original da aplicação, desenvolvido durante as aulas:
 
 <div align="center">
-     <img alt="layout original" width="50%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-original.png">
+     <img alt="layout original" width="40%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-original.png">
+</div>
+<div align="center">
+     <img alt="layout original" width="40%" src="https://github.com/Carol42/PinkCord/blob/main/assets/screenshots/screenshot-chat-original.png">
 </div>
 
 O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do projeto base</a> conta com uma <a href="https://github.com/alura-challenges/aluracord-matrix#contribuidores">vitrine</a> onde podem ser vistos todos projetos das pessoas que estão participando dessa Imersão!
@@ -230,7 +233,6 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     </div>
                     </details>
                 </li>
-                <li></li>
             </ul>
         </li>
         <li>
@@ -246,7 +248,7 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     </div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <div align="center">
-                        <img alt="animação de loading" width="20%" src="https://github.com/Carol42/PinkCord/blob/main/assets/pink-floyd.gif">
+                        <img alt="animação de loading" width="20%" src="https://github.com/Carol42/PinkCord/blob/main/assets/pink-floyd-anim.gif?raw=true">
                     </div>
                     </details>
                 </li>
@@ -260,7 +262,6 @@ O <a href="https://github.com/alura-challenges/aluracord-matrix">repositório do
                     </div>
                     </details>
                 </li>
-                <li></li>
             </ul>
         </li>
         <li>
